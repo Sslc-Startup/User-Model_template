@@ -1,0 +1,7 @@
+body{
+    background-image: url(../../../image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  backdrop-filter: blur(8px);
+}

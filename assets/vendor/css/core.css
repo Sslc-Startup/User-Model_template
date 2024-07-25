@@ -148,12 +148,6 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(67, 89, 113, 0);
-  
-  background-image: url(../../../image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; /* Ensures the image covers the entire background */
-  background-position: center; /* Centers the image */
-  backdrop-filter: blur(8px);
   /* Blurring the background image */
   /* filter: blur(8px); */
 }
@@ -2073,7 +2067,7 @@ progress {
   margin-bottom: 0.5rem;
   font-size: 0.75rem;
   font-weight: 500;
-  color: #566a7f;
+  color: black;
 }
 
 .col-form-label {
@@ -2111,11 +2105,11 @@ progress {
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.53;
-  color: #697a8d;
+  color: black;
   appearance: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: var(--bs-border-width) solid #d9dee3;
+  border: var(--bs-border-width) solid black;
   border-radius: var(--bs-border-radius);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2269,7 +2263,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: right 0.875rem center;
   background-size: 17px 12px;
-  border: var(--bs-border-width) solid #d9dee3;
+  border: var(--bs-border-width) solid #000203;
   border-radius: var(--bs-border-radius);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2393,6 +2387,7 @@ textarea.form-control-lg {
 
 .form-check-label {
   cursor: pointer;
+  color: black;
 }
 
 .form-switch {
@@ -2689,6 +2684,9 @@ textarea.form-control-lg {
 .input-group:not(.has-validation) > .form-floating:not(:last-child) > .form-select {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  color: black;
+  border-color: black;
+
 }
 .input-group.has-validation > :nth-last-child(n + 3):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating),
 .input-group.has-validation > .dropdown-toggle:nth-last-child(n + 4),
@@ -6976,7 +6974,6 @@ a.bg-lightest:focus {
 
 .text-muted[href]:hover,
 .text-muted[href]:focus {
-  color: #8e9baa !important;
 }
 
 .text-light {
@@ -11584,7 +11581,7 @@ button.list-group-item-gray.active {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #a1acb8 !important;
+  color: black !important;
 }
 
 .text-black-50 {
